@@ -1,0 +1,15 @@
+{
+  "name": "@teleskop-labs/tsconfig",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf .turbo && rimraf node_modules"
+  },
+  "files": [
+    "./tsconfig.json",
+    "./tsconfig.base.json",
+    "./tsconfig.node.json",
+    "./tsconfig.web.json"
+  ]
+}

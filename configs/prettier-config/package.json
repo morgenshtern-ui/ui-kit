@@ -1,0 +1,10 @@
+{
+  "name": "@teleskop-labs/prettier-config",
+  "version": "0.0.0",
+  "private": true,
+  "description": "prettier-config",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf .turbo && rimraf node_modules"
+  }
+}

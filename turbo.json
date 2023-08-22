@@ -1,0 +1,49 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": [
+    "**/.env.*local",
+    "**/eslint-config-js/index.js",
+    "**/eslint-config-ts/index.js",
+    "**/eslint-config-prettier-ts/index.js",
+    "**/eslint-config-vue/index.js",
+    "**/prettier-config/index.js",
+    "**/stylelint-config-css/index.js",
+    "**/tsconfig/*.json"
+  ],
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", "storybook-static/**"]
+    },
+    "clean": {
+      "cache": false
+    },
+    "test": {
+      "outputs": []
+    },
+    "type-check": {
+      "outputs": []
+    },
+    "stylelint": {
+      "outputs": []
+    },
+    "stylelint:fix": {
+      "outputs": []
+    },
+    "prettier": {
+      "outputs": []
+    },
+    "prettier:fix": {
+      "outputs": []
+    },
+    "eslint": {
+      "outputs": []
+    },
+    "eslint:fix": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false
+    }
+  }
+}
