@@ -13,6 +13,6 @@
   "dependencies": {
     "@teleskop-labs/eslint-config-ts": "workspace:*",
     "eslint-config-prettier": "9.0.0",
-    "eslint-plugin-prettier": "5.0.0-alpha.2"
+    "eslint-plugin-prettier": "5.0.0"
   }
 }

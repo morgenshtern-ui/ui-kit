@@ -35,6 +35,7 @@
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
     "@rushstack/eslint-patch": "1.3.3",
+    "@teleskop-labs/eslint-config-ts": "workspace:*",
     "@teleskop-labs/eslint-config-vue": "workspace:*",
     "@teleskop-labs/prettier-config": "workspace:*",
     "@teleskop-labs/stylelint-config-css": "workspace:*",
