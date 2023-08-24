@@ -30,4 +30,4 @@ type InferDefaults<T> = {
   [K in keyof T]?: InferDefault<T, T[K]>
 }
 
-export type NPropsWithDefaults<T, P extends InferDefaults<T>> = PropsWithDefaults<T, P, BooleanKey<T>>
+export type TPropsWithDefaults<T, P extends InferDefaults<T>> = PropsWithDefaults<T, P, BooleanKey<T>>

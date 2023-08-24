@@ -1,8 +1,10 @@
 import { isString } from './shared'
 
 class TeleskopLabsError extends Error {
-  public constructor(m: string) {
-    super(m)
+  public constructor(message: string) {
+    const thisMessage = `[TeleskopLabs]: ${message}`
+
+    super(thisMessage)
     this.name = 'TeleskopLabsError'
   }
 }
@@ -18,5 +20,15 @@ export function debugWarn(scope: string | Error, message?: string): void {
     const error: Error = isString(scope) ? new TeleskopLabsError(`[${scope}] ${message}`) : scope
 
     console.warn(error)
+  }
+}
+
+export function debugError(err: Error): void
+export function debugError(scope: string, message: string): void
+export function debugError(scope: string | Error, message?: string): void {
+  if (process.env.NODE_ENV !== 'production') {
+    const error: Error = isString(scope) ? new TeleskopLabsError(`[${scope}] ${message}`) : scope
+
+    console.error(error)
   }
 }

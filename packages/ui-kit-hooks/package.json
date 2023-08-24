@@ -1,0 +1,38 @@
+{
+  "name": "@teleskop-labs/ui-kit-hooks",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "type-check": "vue-tsc --noEmit -p ./tsconfig.vitest.json --composite false",
+    "test": "pnpm run test:unit:run",
+    "test:unit": "vitest",
+    "test:unit:ui": "vitest --ui",
+    "test:unit:run": "vitest run",
+    "test:unit:coverage": "vitest run --coverage",
+    "prettier": "prettier --check --ignore-unknown \"**/*\"",
+    "prettier:fix": "prettier --write --ignore-unknown \"**/*\"",
+    "eslint": "eslint \"**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,json,vue}\"",
+    "eslint:fix": "eslint --fix \"**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,json,vue}\" --fix",
+    "clean": "rimraf .turbo && rimraf node_modules"
+  },
+  "dependencies": {
+    "@teleskop-labs/ui-kit-constants": "workspace:*",
+    "@teleskop-labs/ui-kit-locale": "workspace:*",
+    "@teleskop-labs/ui-kit-utils": "workspace:*",
+    "@vueuse/core": "^10.3.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.1",
+    "@vitest/coverage-v8": "^0.34.1",
+    "@vitest/ui": "^0.34.1",
+    "@vue/test-utils": "^2.4.1",
+    "jsdom": "^22.1.0",
+    "vitest": "^0.34.1",
+    "vue-router": "^4.2.4"
+  }
+}

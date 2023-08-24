@@ -1,12 +1,13 @@
 import { getCurrentInstance as _getCurrentInstance } from 'vue'
 
+import { throwError } from '../error'
 import { toKebabCase } from '../strings'
 
 export function getCurrentInstance(name: string, message?: string) {
   const vm = _getCurrentInstance()
 
   if (!vm) {
-    throw new Error(`[TeleskopLabs] ${name} ${message || 'must be called from inside a setup function'}`)
+    throwError('getCurrentInstance', `${name} ${message || 'must be called from inside a setup function'}`)
   }
 
   return vm
