@@ -1,0 +1,42 @@
+@layer components.defaults {
+  .t-icon {
+    display: inline-block;
+    flex-shrink: 0;
+
+    width: var(--t-comp-icon-size-width, auto);
+    height: var(--t-comp-icon-size-height, auto);
+
+    line-height: 1;
+  }
+
+  .t-icon > svg {
+    width: var(--t-comp-icon-size-width, auto);
+    height: var(--t-comp-icon-size-height, auto);
+    max-width: 100%;
+    max-height: 100%;
+
+    color: var(--t-comp-icon-primary-color);
+    vertical-align: bottom;
+
+    fill: var(--t-comp-icon-secondary-color);
+
+    overflow: hidden;
+
+    pointer-events: none;
+  }
+}
+
+@layer components.defaults {
+  .t-svg {
+    width: var(--t-comp-svg-size-width, auto);
+    height: var(--t-comp-svg-size-height, auto);
+
+    color: var(--t-comp-svg-primary-color);
+
+    fill: var(--t-comp-svg-secondary-color);
+
+    overflow: hidden;
+
+    pointer-events: none;
+  }
+}
