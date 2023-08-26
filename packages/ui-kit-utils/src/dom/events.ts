@@ -1,5 +1,24 @@
 import type { Optional } from '../typescript'
 
+export const listenOptions = {
+  hasPassive: false,
+  passiveCapture: true,
+  notPassiveCapture: true,
+}
+
+export function stop(event: Event) {
+  event.stopPropagation()
+}
+
+export function prevent(event: Event) {
+  event.cancelable !== false && event.preventDefault()
+}
+
+export function stopAndPrevent(event: Event) {
+  event.cancelable !== false && event.preventDefault()
+  event.stopPropagation()
+}
+
 export function composeEventHandlers<E>(
   theirsHandler?: (event: E) => Optional<boolean> | void,
   oursHandler?: (event: E) => void,
