@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf .turbo && rimraf node_modules"
+    "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "files": [
     "./tsconfig.json",

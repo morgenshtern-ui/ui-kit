@@ -4,7 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf .turbo && rimraf node_modules"
+    "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "peerDependencies": {
     "eslint": ">=8.20.0",
