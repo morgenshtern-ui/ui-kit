@@ -6,5 +6,5 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  extends: ['@teleskop-labs/eslint-config-ts'],
+  extends: ['@teleskop-labs/eslint-config-prettier-ts'],
 }

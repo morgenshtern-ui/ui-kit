@@ -20,9 +20,9 @@ importers:
       '@rushstack/eslint-patch':
         specifier: 1.3.3
         version: 1.3.3
-      '@teleskop-labs/eslint-config-ts':
+      '@teleskop-labs/eslint-config-prettier-ts':
         specifier: workspace:*
-        version: link:configs/eslint-config-ts
+        version: link:configs/eslint-config-prettier-ts
       '@teleskop-labs/eslint-config-vue':
         specifier: workspace:*
         version: link:configs/eslint-config-vue
@@ -382,6 +382,8 @@ importers:
         version: 0.34.3(@vitest/ui@0.34.3)(jsdom@22.1.0)
 
   packages/ui-kit-locale: {}
+
+  packages/ui-kit-theme: {}
 
   packages/ui-kit-utils:
     dependencies:
