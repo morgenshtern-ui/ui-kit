@@ -1,36 +1,8 @@
+import type { NuxtLinkProps, VueRouterLinkProps } from '@teleskop-labs/ui-kit-utils'
 import { computedEager, type MaybeRefOrGetter } from '@vueuse/core'
 import { computed, getCurrentInstance, toValue } from 'vue'
-import type { RouteLocationRaw, RouterLinkProps } from 'vue-router'
 
 import { useGlobalConfig } from '../useGlobalConfig'
-
-export type { RouteLocationRaw } from 'vue-router'
-
-export type VueRouterLinkProps = Readonly<Partial<RouterLinkProps>>
-
-interface NuxtLinkOptions {
-  readonly externalRelAttribute?: string | null
-  readonly activeClass?: string
-  readonly exactActiveClass?: string
-  readonly prefetchedClass?: string
-  readonly trailingSlash?: 'append' | 'remove'
-}
-
-export interface NuxtLinkProps extends NuxtLinkOptions {
-  readonly to?: RouteLocationRaw
-  readonly href?: RouteLocationRaw
-  readonly external?: boolean
-  readonly replace?: boolean
-  readonly custom?: boolean
-  readonly target?: '_blank' | '_parent' | '_self' | '_top' | (string & {}) | null
-  readonly rel?: string
-  readonly noRel?: boolean
-  readonly prefetch?: boolean
-  readonly noPrefetch?: boolean
-  readonly activeClass?: string
-  readonly exactActiveClass?: string
-  readonly ariaCurrentValue?: 'page' | 'step' | 'location' | 'date' | 'time' | 'true' | 'false'
-}
 
 export interface TRouterLinkProps extends NuxtLinkProps, VueRouterLinkProps {}
 
