@@ -1,0 +1,5 @@
+@layer components.defaults {
+  .t-avatar--appearance-square {
+    --t-comp-avatar-size-icon-position: 0;
+  }
+}

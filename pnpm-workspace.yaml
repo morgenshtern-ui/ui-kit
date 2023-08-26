@@ -1,6 +1,6 @@
 packages:
   - 'apps/*'
-  - 'docs/*'
   - 'packages/*'
   - 'configs/*'
+  - 'docs/*'
   - 'play/*'

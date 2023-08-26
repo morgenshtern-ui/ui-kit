@@ -1,0 +1,136 @@
+@layer components.defaults {
+  .t-avatar {
+    position: relative;
+
+    display: inline-flex;
+
+    outline: 0;
+  }
+
+  .t-avatar__inner {
+    position: static;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    width: var(--t-comp-avatar-size-container);
+    height: var(--t-comp-avatar-size-container);
+    margin: var(--t-ref-space-025);
+    padding: var(--t-ref-space-0);
+    box-sizing: content-box;
+
+    font-size: inherit;
+    font-family: inherit;
+
+    border: none;
+    border-radius: var(--t-comp-avatar-size-border-radius);
+
+    background-color: var(--t-comp-avatar-color-background);
+
+    outline: none;
+
+    box-shadow: 0 0 0 var(--t-ref-border-width-outline) var(--t-comp-avatar-color-border);
+
+    cursor: inherit;
+
+    transform: translateZ(0px);
+
+    overflow: hidden;
+
+    transition:
+      transform 200ms ease 0s,
+      opacity 200ms ease 0s;
+
+    &::after {
+      position: absolute;
+      inset: 0;
+      content: ' ';
+
+      width: 100%;
+
+      /* Added border-radius style to fix hover issue in safari */
+      border-radius: var(--t-comp-avatar-size-border-radius);
+
+      background-color: transparent;
+
+      opacity: 0;
+
+      pointer-events: none;
+
+      transition: opacity 200ms ease 0s;
+    }
+
+    &:focus-visible {
+      outline: none;
+
+      box-shadow: 0 0 0 var(--t-ref-border-width-outline) var(--t-sys-color-border-focused);
+    }
+  }
+
+  .t-avatar__image {
+    display: flex;
+    flex: 1 1 100%;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: var(--t-comp-avatar-size-border-radius);
+  }
+
+  .t-avatar__follback-wrapper {
+    display: grid;
+
+    width: var(--t-comp-avatar-size-container);
+    height: var(--t-comp-avatar-size-container);
+
+    background-color: var(--t-sys-color-icon-subtle);
+
+    & svg {
+      width: var(--t-comp-avatar-size-container);
+      height: var(--t-comp-avatar-size-container);
+    }
+  }
+
+  .t-avatar__follback {
+    --t-comp-icon-size-width: var(--t-comp-avatar-size-container);
+    --t-comp-icon-size-height: var(--t-comp-avatar-size-container);
+  }
+
+  .t-avatar__presence-wrapper {
+    position: absolute;
+    bottom: var(--t-comp-avatar-size-icon-position);
+    right: var(--t-comp-avatar-size-icon-position);
+
+    width: var(--t-comp-avatar-size-icon);
+    height: var(--t-comp-avatar-size-icon);
+
+    pointer-events: none;
+  }
+
+  .t-avatar__status-wrapper {
+    position: absolute;
+    top: var(--t-comp-avatar-size-icon-position);
+    right: var(--t-comp-avatar-size-icon-position);
+
+    width: var(--t-comp-avatar-size-icon);
+    height: var(--t-comp-avatar-size-icon);
+
+    pointer-events: none;
+  }
+
+  .t-avatar__icon-wrapper {
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    border-radius: var(--t-ref-border-radius-circle);
+
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,5 @@
+@layer components.defaults {
+  .t-avatar--appearance-circle {
+    --t-comp-avatar-size-border-radius: 50%;
+  }
+}

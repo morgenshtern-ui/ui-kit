@@ -1,0 +1,9 @@
+@layer components.defaults {
+  .t-avatar--size-small {
+    --t-comp-avatar-size-container: calc(var(--t-ref-space-100) * 3);
+    --t-comp-avatar-size-border-radius: 2px;
+    --t-comp-avatar-size-icon: 12px;
+    --t-comp-avatar-size-icon-offset: 0;
+    --t-comp-avatar-size-icon-position: 0;
+  }
+}

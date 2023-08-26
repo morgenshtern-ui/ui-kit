@@ -1,0 +1,6 @@
+@layer components.defaults {
+  .t-avatar--size-xxlarge {
+    --t-comp-avatar-size-container: calc(var(--t-ref-space-100) * 16);
+    --t-comp-avatar-size-border-radius: 12px;
+  }
+}

@@ -1,0 +1,13 @@
+@layer components.defaults {
+  .t-avatar--is-disabled {
+    .t-avatar__inner {
+      cursor: not-allowed;
+
+      &::after {
+        background-color: var(--t-sys-elevation-surface);
+
+        opacity: var(--t-sys-opacity-disabled);
+      }
+    }
+  }
+}
