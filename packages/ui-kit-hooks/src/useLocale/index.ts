@@ -6,6 +6,8 @@ import { isRef, ref, unref } from 'vue'
 
 import { useLocationContext } from './context'
 
+export { LOCALE_CONTEXT_KEY } from './context'
+
 export type TranslatorOption = Record<string, string | number>
 export type Translator = (path: string, option?: TranslatorOption) => string
 export interface LocaleContext {
