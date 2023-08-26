@@ -1,0 +1,29 @@
+{
+  "name": "play-ui-kit",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "build-only": "vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
+    "prettier": "prettier --check --ignore-unknown \"**/*\"",
+    "prettier:fix": "prettier --write --ignore-unknown \"**/*\"",
+    "eslint": "eslint \"**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,json,vue}\"",
+    "eslint:fix": "eslint --fix \"**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,json,vue}\" --fix",
+    "stylelint": "stylelint \"**/*.{css,vue}\"",
+    "stylelint:fix": "stylelint --fix \"**/*.{css,vue}\""
+  },
+  "dependencies": {
+    "@teleskop-labs/atlassian-icons-vue": "0.0.5",
+    "@teleskop-labs/element-icons-vue": "0.0.5",
+    "@teleskop-labs/ui-kit-components": "workspace:*",
+    "pinia": "2.1.6",
+    "vue": "3.3.4",
+    "vue-router": "4.2.4"
+  },
+  "devDependencies": {
+    "vite-plugin-vue-devtools": "1.0.0-rc.2"
+  }
+}

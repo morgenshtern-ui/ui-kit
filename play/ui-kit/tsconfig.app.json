@@ -1,0 +1,18 @@
+{
+  "extends": "@teleskop-labs/tsconfig/tsconfig.web.json",
+  "include": [
+    "types/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "../../packages/ui-kit-components/**/*.vue"
+  ],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
