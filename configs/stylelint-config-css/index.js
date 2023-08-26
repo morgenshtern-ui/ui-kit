@@ -25,7 +25,7 @@ module.exports = {
     ],
     // 'scale-unlimited/declaration-strict-value': [['/color$/', 'z-index', 'font-size']],
     'selector-class-pattern': [
-      '^(n-[a-zA-Z]([a-zA-Z0-9-]+)?(__([a-zA-Z0-9]+-?)+)?(--([a-zA-Z0-9]+-?)+){0,2}|assistive)$',
+      '^(t-[a-zA-Z]([a-zA-Z0-9-]+)?(__([a-zA-Z0-9]+-?)+)?(--([a-zA-Z0-9]+-?)+){0,2}|assistive)$',
       {
         message: 'BEM',
       },

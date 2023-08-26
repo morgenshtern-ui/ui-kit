@@ -1,6 +1,6 @@
 {
-  "extends": "@teleskop-labs/tsconfig/tsconfig.json",
-  "include": ["types/**/*.d.ts", "src/**/*", "src/**/*.ts"],
+  "extends": "@teleskop-labs/tsconfig/tsconfig.web.json",
+  "include": ["types/*.d.ts", "src/**/*", "src/**/*.ts"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "composite": true,

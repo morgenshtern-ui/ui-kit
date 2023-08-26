@@ -1,5 +1,5 @@
 {
-  "extends": "@teleskop-labs/tsconfig/tsconfig.json",
+  "extends": "@teleskop-labs/tsconfig/tsconfig.node.json",
   "include": ["vite.config.*", "vitest.config.*", "cypress.config.*"],
   "compilerOptions": {
     "composite": true,
