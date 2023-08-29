@@ -1,5 +1,0 @@
-export * from './bolder'
-export * from './color'
-export * from './elevation'
-export * from './opacity'
-export * from './z-index'

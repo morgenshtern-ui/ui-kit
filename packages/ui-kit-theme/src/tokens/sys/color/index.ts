@@ -1,8 +1,0 @@
-export { SysColorBackground } from './background'
-export { SysColorBlanket } from './blanket'
-export { SysColorBolder } from './bolder'
-export { SysColorIcon } from './icon'
-export { SysColorInteraction } from './interaction'
-export { SysColorLink } from './link'
-export { SysColorSkeleton } from './skeleton'
-export { SysColorText } from './text'

@@ -1,8 +1,0 @@
-@layer themes {
-  .t-main-theme {
-    --t-ref-border-width: 1px;
-    --t-ref-border-width-0: 0;
-    --t-ref-border-width-indicator: 3px;
-    --t-ref-border-width-outline: 2px;
-  }
-}

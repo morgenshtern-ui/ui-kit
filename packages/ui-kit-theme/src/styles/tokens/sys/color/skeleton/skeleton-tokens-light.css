@@ -1,7 +1,0 @@
-@layer themes {
-  .t-main-theme {
-    /* dark */
-    --t-sys-color-skeleton-dark: var(--t-ref-color-dark-neutral-200-a);
-    --t-sys-color-skeleton-subtle-dark: var(--t-ref-color-dark-neutral-100-a);
-  }
-}

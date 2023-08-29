@@ -1,8 +1,0 @@
-@layer themes {
-  .t-main-theme {
-    --t-ref-font-weight-bold: 700;
-    --t-ref-font-weight-medium: 500;
-    --t-ref-font-weight-regular: 400;
-    --t-ref-font-weight-semibold: 600;
-  }
-}

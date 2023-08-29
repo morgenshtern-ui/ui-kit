@@ -1,7 +1,0 @@
-@layer themes {
-  .t-main-theme {
-    /* dark */
-    --t-sys-color-interaction-hovered-dark: rgb(255 255 255 / 20%);
-    --t-sys-color-interaction-pressed-dark: rgb(255 255 255 / 36.1%);
-  }
-}

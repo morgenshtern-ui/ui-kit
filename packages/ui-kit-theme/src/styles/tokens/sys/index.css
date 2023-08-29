@@ -1,3 +1,19 @@
-@import url('./color/index.css');
-@import url('./elevation/index.css');
-@import url('./opacity/index.css');
+@layer themes {
+  :root {
+    --t-sys-z-index-card: 100;
+    --t-sys-z-index-navigation: 200;
+    --t-sys-z-index-dialog: 300;
+    --t-sys-z-index-layer: 400;
+    --t-sys-z-index-blanket: 500;
+    --t-sys-z-index-modal: 510;
+    --t-sys-z-index-flag: 600;
+    --t-sys-z-index-spotlight: 700;
+    --t-sys-z-index-tooltip: 800;
+    --t-sys-border-width-0: 0px;
+    --t-sys-border-width: 1px;
+    --t-sys-border-width-indicator: 3px;
+    --t-sys-border-width-outline: 2px;
+    --t-sys-border-radius: var(--t-ref-border-radius-border-radius-100, 4px);
+    --t-sys-border-radius-circle: 32032px;
+  }
+}
