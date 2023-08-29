@@ -1,0 +1,13 @@
+@layer themes {
+  .t-main-theme {
+    --t-ref-z-index-card: 100;
+    --t-ref-z-index-navigation: 200;
+    --t-ref-z-index-dialog: 300;
+    --t-ref-z-index-layer: 400;
+    --t-ref-z-index-blanket: 500;
+    --t-ref-z-index-modal: 510;
+    --t-ref-z-index-flag: 600;
+    --t-ref-z-index-spotlight: 700;
+    --t-ref-z-index-tooltip: 800;
+  }
+}

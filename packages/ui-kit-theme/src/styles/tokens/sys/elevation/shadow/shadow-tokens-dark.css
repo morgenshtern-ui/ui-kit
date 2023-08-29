@@ -1,0 +1,12 @@
+@layer themes {
+  .t-main-theme {
+    /* dark */
+    --t-sys-elevation-shadow-overflow-dark: 0px 0px 12px rgb(3 4 4 / 56%), 0px 0px 1px rgb(3 4 4 / 50%);
+    --t-sys-elevation-shadow-overflow-perimeter-dark: rgb(3 4 4 / 50.2%);
+    --t-sys-elevation-shadow-overflow-spread-dark: rgb(3 4 4 / 56.1%);
+    --t-sys-elevation-shadow-overlay-dark: 0px 0px 0px rgb(188 214 240 / 12%), 0px 8px 12px rgb(3 4 4 / 36%),
+      0px 0px 1px rgb(3 4 4 / 50%);
+    --t-sys-elevation-shadow-raised-dark: 0px 0px 0px rgb(0 0 0 / 0%), 0px 1px 1px rgb(3 4 4 / 50%),
+      0px 0px 1px rgb(3 4 4 / 50%);
+  }
+}

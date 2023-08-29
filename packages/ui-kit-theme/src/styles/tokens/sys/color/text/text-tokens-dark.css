@@ -1,0 +1,80 @@
+@layer themes {
+  .t-main-theme {
+    /* dark */
+
+    /* text */
+    --t-sys-color-text-dark: var(--t-ref-color-dark-neutral-900);
+
+    /* lime */
+    --t-sys-color-text-accent-lime-dark: var(--t-ref-color-lime-300);
+    --t-sys-color-text-accent-lime-bolder-dark: var(--t-ref-color-lime-200);
+
+    /* red */
+    --t-sys-color-text-accent-red-dark: var(--t-ref-color-red-300);
+    --t-sys-color-text-accent-red-bolder-dark: var(--t-ref-color-red-200);
+
+    /* orange */
+    --t-sys-color-text-accent-orange-dark: var(--t-ref-color-orange-300);
+    --t-sys-color-text-accent-orange-bolder-dark: var(--t-ref-color-orange-200);
+
+    /* yellow */
+    --t-sys-color-text-accent-yellow-dark: var(--t-ref-color-yellow-300);
+    --t-sys-color-text-accent-yellow-bolder-dark: var(--t-ref-color-yellow-200);
+
+    /* green */
+    --t-sys-color-text-accent-green-dark: var(--t-ref-color-green-300);
+    --t-sys-color-text-accent-green-bolder-dark: var(--t-ref-color-green-200);
+
+    /* teal */
+    --t-sys-color-text-accent-teal-dark: var(--t-ref-color-teal-300);
+    --t-sys-color-text-accent-teal-bolder-dark: var(--t-ref-color-teal-200);
+
+    /* blue */
+    --t-sys-color-text-accent-blue-dark: var(--t-ref-color-blue-300);
+    --t-sys-color-text-accent-blue-bolder-dark: var(--t-ref-color-blue-200);
+
+    /* purple */
+    --t-sys-color-text-accent-purple-dark: var(--t-ref-color-purple-300);
+    --t-sys-color-text-accent-purple-bolder-dark: var(--t-ref-color-purple-200);
+
+    /* magenta */
+    --t-sys-color-text-accent-magenta-dark: var(--t-ref-color-magenta-300);
+    --t-sys-color-text-accent-magenta-bolder-dark: var(--t-ref-color-magenta-200);
+
+    /* gray */
+    --t-sys-color-text-accent-gray-dark: var(--t-ref-color-dark-neutral-800);
+    --t-sys-color-text-accent-gray-bolder-dark: var(--t-ref-color-dark-neutral-1100);
+
+    /* disabled */
+    --t-sys-color-text-disabled-dark: var(--t-ref-color-dark-neutral-400-a);
+
+    /* inverse */
+    --t-sys-color-text-inverse-dark: var(--t-ref-color-dark-neutral-100);
+
+    /* selected */
+    --t-sys-color-text-selected-dark: var(--t-ref-color-blue-400);
+
+    /* brand */
+    --t-sys-color-text-brand-dark: var(--t-ref-color-blue-400);
+
+    /* danger */
+    --t-sys-color-text-danger-dark: var(--t-ref-color-red-300);
+
+    /* warning */
+    --t-sys-color-text-warning-dark: var(--t-ref-color-orange-300);
+    --t-sys-color-text-warning-inverse-dark: var(--t-ref-color-dark-neutral-100);
+
+    /* success */
+    --t-sys-color-text-success-dark: var(--t-ref-color-green-300);
+
+    /* discovery */
+    --t-sys-color-text-discovery-dark: var(--t-ref-color-purple-300);
+
+    /* information */
+    --t-sys-color-text-information-dark: var(--t-ref-color-blue-300);
+
+    /* text */
+    --t-sys-color-text-subtlest-dark: var(--t-ref-color-dark-neutral-700);
+    --t-sys-color-text-subtle-dark: var(--t-ref-color-dark-neutral-800);
+  }
+}

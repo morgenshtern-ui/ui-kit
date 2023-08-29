@@ -1,0 +1,7 @@
+@layer themes {
+  .t-main-theme {
+    /* light */
+    --t-sys-color-link-light: var(--t-ref-color-blue-700);
+    --t-sys-color-link-pressed-light: var(--t-ref-color-blue-800);
+  }
+}

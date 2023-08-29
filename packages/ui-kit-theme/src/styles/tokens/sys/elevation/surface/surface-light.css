@@ -1,0 +1,32 @@
+@layer themes {
+  @media (prefers-color-scheme: light) {
+    .t-main-theme,
+    .t-main-theme--light {
+      /* light */
+      --t-sys-elevation-surface: var(--t-sys-elevation-surface-light);
+      --t-sys-elevation-surface-hovered: var(--t-sys-elevation-surface-hovered-light);
+      --t-sys-elevation-surface-pressed: var(--t-sys-elevation-surface-pressed-light);
+      --t-sys-elevation-surface-overlay: var(--t-sys-elevation-surface-overlay-light);
+      --t-sys-elevation-surface-overlay-hovered: var(--t-sys-elevation-surface-overlay-hovered-light);
+      --t-sys-elevation-surface-overlay-pressed: var(--t-sys-elevation-surface-overlay-pressed-light);
+      --t-sys-elevation-surface-raised: var(--t-sys-elevation-surface-raised-light);
+      --t-sys-elevation-surface-raised-hovered: var(--t-sys-elevation-surface-raised-hovered-light);
+      --t-sys-elevation-surface-raised-pressed: var(--t-sys-elevation-surface-raised-pressed-light);
+      --t-sys-elevation-surface-sunken: var(--t-sys-elevation-surface-sunken-light);
+    }
+
+    .t-main-theme--dark {
+      /* dark */
+      --t-sys-elevation-surface: var(--t-sys-elevation-surface-dark);
+      --t-sys-elevation-surface-hovered: var(--t-sys-elevation-surface-hovered-dark);
+      --t-sys-elevation-surface-pressed: var(--t-sys-elevation-surface-pressed-dark);
+      --t-sys-elevation-surface-overlay: var(--t-sys-elevation-surface-overlay-dark);
+      --t-sys-elevation-surface-overlay-hovered: var(--t-sys-elevation-surface-overlay-hovered-dark);
+      --t-sys-elevation-surface-overlay-pressed: var(--t-sys-elevation-surface-overlay-pressed-dark);
+      --t-sys-elevation-surface-raised: var(--t-sys-elevation-surface-raised-dark);
+      --t-sys-elevation-surface-raised-hovered: var(--t-sys-elevation-surface-raised-hovered-dark);
+      --t-sys-elevation-surface-raised-pressed: var(--t-sys-elevation-surface-raised-pressed-dark);
+      --t-sys-elevation-surface-sunken: var(--t-sys-elevation-surface-sunken-dark);
+    }
+  }
+}

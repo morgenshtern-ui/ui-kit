@@ -1,0 +1,15 @@
+@layer themes {
+  .t-main-theme {
+    /* dark */
+    --t-sys-elevation-surface-dark: var(--t-ref-color-dark-neutral-100);
+    --t-sys-elevation-surface-hovered-dark: var(--t-ref-color-dark-neutral-200);
+    --t-sys-elevation-surface-pressed-dark: var(--t-ref-color-dark-neutral-250);
+    --t-sys-elevation-surface-overlay-dark: var(--t-ref-color-dark-neutral-250);
+    --t-sys-elevation-surface-overlay-hovered-dark: var(--t-ref-color-dark-neutral-300);
+    --t-sys-elevation-surface-overlay-pressed-dark: var(--t-ref-color-dark-neutral-350);
+    --t-sys-elevation-surface-raised-dark: var(--t-ref-color-dark-neutral-200);
+    --t-sys-elevation-surface-raised-hovered-dark: var(--t-ref-color-dark-neutral-250);
+    --t-sys-elevation-surface-raised-pressed-dark: var(--t-ref-color-dark-neutral-300);
+    --t-sys-elevation-surface-sunken-dark: var(--t-ref-color-dark-neutral-0);
+  }
+}

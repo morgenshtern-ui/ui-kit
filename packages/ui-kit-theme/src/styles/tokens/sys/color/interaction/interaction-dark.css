@@ -1,0 +1,16 @@
+@layer themes {
+  @media (prefers-color-scheme: dark) {
+    .t-main-theme,
+    .t-main-theme--dark {
+      /* dark */
+      --t-sys-color-interaction-hovered: var(--t-sys-color-interaction-hovered-dark);
+      --t-sys-color-interaction-pressed: var(--t-sys-color-interaction-pressed-dark);
+    }
+
+    .t-main-theme--light {
+      /* light */
+      --t-sys-color-interaction-hovered: var(--t-sys-color-interaction-hovered-light);
+      --t-sys-color-interaction-pressed: var(--t-sys-color-interaction-pressed-light);
+    }
+  }
+}

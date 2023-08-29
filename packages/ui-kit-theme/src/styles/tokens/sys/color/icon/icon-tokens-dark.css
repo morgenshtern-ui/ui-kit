@@ -1,0 +1,37 @@
+@layer themes {
+  .t-main-theme {
+    /* dark */
+
+    /* icon */
+    --t-sys-color-icon-dark: var(--t-ref-color-dark-neutral-800);
+
+    /* accent */
+    --t-sys-color-icon-accent-lime-dark: var(--t-ref-color-lime-500);
+    --t-sys-color-icon-accent-red-dark: var(--t-ref-color-red-500);
+    --t-sys-color-icon-accent-orange-dark: var(--t-ref-color-orange-500);
+    --t-sys-color-icon-accent-yellow-dark: var(--t-ref-color-yellow-500);
+    --t-sys-color-icon-accent-green-dark: var(--t-ref-color-green-500);
+    --t-sys-color-icon-accent-teal-dark: var(--t-ref-color-teal-500);
+    --t-sys-color-icon-accent-blue-dark: var(--t-ref-color-blue-500);
+    --t-sys-color-icon-accent-purple-dark: var(--t-ref-color-purple-500);
+    --t-sys-color-icon-accent-magenta-dark: var(--t-ref-color-magenta-500);
+    --t-sys-color-icon-accent-gray-dark: var(--t-ref-color-dark-neutral-500);
+
+    /* disabled */
+    --t-sys-color-icon-disabled-dark: var(--t-ref-color-dark-neutral-400-a);
+    --t-sys-color-icon-inverse-dark: var(--t-ref-color-dark-neutral-100);
+    --t-sys-color-icon-selected-dark: var(--t-ref-color-blue-400);
+    --t-sys-color-icon-brand-dark: var(--t-ref-color-blue-400);
+    --t-sys-color-icon-danger-dark: var(--t-ref-color-red-500);
+
+    /* warning */
+    --t-sys-color-icon-warning-dark: var(--t-ref-color-orange-500);
+    --t-sys-color-icon-warning-inverse-dark: var(--t-ref-color-dark-neutral-100);
+    --t-sys-color-icon-success-dark: var(--t-ref-color-green-500);
+    --t-sys-color-icon-discovery-dark: var(--t-ref-color-purple-500);
+    --t-sys-color-icon-information-dark: var(--t-ref-color-blue-500);
+
+    /* icon */
+    --t-sys-color-icon-subtle-dark: var(--t-ref-color-dark-neutral-700);
+  }
+}

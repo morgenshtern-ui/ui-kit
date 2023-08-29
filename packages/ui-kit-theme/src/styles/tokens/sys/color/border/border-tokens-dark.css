@@ -1,0 +1,30 @@
+@layer themes {
+  .t-main-theme {
+    /* dark */
+    --t-sys-color-border-dark: var(--t-ref-color-dark-neutral-300-a);
+    --t-sys-color-border-accent-lime-dark: var(--t-ref-color-lime-500);
+    --t-sys-color-border-accent-red-dark: var(--t-ref-color-red-500);
+    --t-sys-color-border-accent-orange-dark: var(--t-ref-color-orange-500);
+    --t-sys-color-border-accent-yellow-dark: var(--t-ref-color-yellow-500);
+    --t-sys-color-border-accent-green-dark: var(--t-ref-color-green-500);
+    --t-sys-color-border-accent-teal-dark: var(--t-ref-color-teal-500);
+    --t-sys-color-border-accent-blue-dark: var(--t-ref-color-blue-500);
+    --t-sys-color-border-accent-purple-dark: var(--t-ref-color-purple-500);
+    --t-sys-color-border-accent-magenta-dark: var(--t-ref-color-magenta-500);
+    --t-sys-color-border-accent-gray-dark: var(--t-ref-color-dark-neutral-600);
+
+    /* - */
+    --t-sys-color-border-disabled-dark: var(--t-ref-color-dark-neutral-200-a);
+    --t-sys-color-border-focused-dark: var(--t-ref-color-blue-300);
+    --t-sys-color-border-input-dark: var(--t-ref-color-dark-neutral-300-a);
+    --t-sys-color-border-inverse-dark: var(--t-ref-color-dark-neutral-0);
+    --t-sys-color-border-selected-dark: var(--t-ref-color-blue-400);
+    --t-sys-color-border-brand-dark: var(--t-ref-color-blue-400);
+    --t-sys-color-border-danger-dark: var(--t-ref-color-red-500);
+    --t-sys-color-border-warning-dark: var(--t-ref-color-orange-500);
+    --t-sys-color-border-success-dark: var(--t-ref-color-green-500);
+    --t-sys-color-border-discovery-dark: var(--t-ref-color-purple-500);
+    --t-sys-color-border-information-dark: var(--t-ref-color-blue-500);
+    --t-sys-color-border-bold-dark: var(--t-ref-color-dark-neutral-600);
+  }
+}

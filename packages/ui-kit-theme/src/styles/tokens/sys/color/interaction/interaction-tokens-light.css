@@ -1,0 +1,7 @@
+@layer themes {
+  .t-main-theme {
+    /* light */
+    --t-sys-color-interaction-hovered-light: rgb(0 0 0 / 16.1%);
+    --t-sys-color-interaction-pressed-light: rgb(0 0 0 / 32.2%);
+  }
+}

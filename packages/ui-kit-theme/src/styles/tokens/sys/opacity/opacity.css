@@ -1,0 +1,7 @@
+@layer themes {
+  .t-main-theme {
+    --t-sys-opacity-disabled: 0.4;
+    --t-sys-opacity-loading: 0.2;
+    --t-sys-opacity-transparent: transparent;
+  }
+}

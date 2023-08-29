@@ -1,0 +1,37 @@
+@layer themes {
+  .t-main-theme {
+    /* light */
+
+    /* icon */
+    --t-sys-color-icon-light: var(--t-ref-color-neutral-800);
+
+    /* accent */
+    --t-sys-color-icon-accent-lime-light: var(--t-ref-color-lime-600);
+    --t-sys-color-icon-accent-red-light: var(--t-ref-color-red-600);
+    --t-sys-color-icon-accent-orange-light: var(--t-ref-color-orange-600);
+    --t-sys-color-icon-accent-yellow-light: var(--t-ref-color-yellow-600);
+    --t-sys-color-icon-accent-green-light: var(--t-ref-color-green-600);
+    --t-sys-color-icon-accent-teal-light: var(--t-ref-color-teal-600);
+    --t-sys-color-icon-accent-blue-light: var(--t-ref-color-blue-600);
+    --t-sys-color-icon-accent-purple-light: var(--t-ref-color-purple-600);
+    --t-sys-color-icon-accent-magenta-light: var(--t-ref-color-magenta-600);
+    --t-sys-color-icon-accent-gray-light: var(--t-ref-color-neutral-600);
+
+    /* disabled */
+    --t-sys-color-icon-disabled-light: var(--t-ref-color-neutral-400-a);
+    --t-sys-color-icon-inverse-light: var(--t-ref-color-neutral-0);
+    --t-sys-color-icon-selected-light: var(--t-ref-color-blue-700);
+    --t-sys-color-icon-brand-light: var(--t-ref-color-blue-700);
+    --t-sys-color-icon-danger-light: var(--t-ref-color-red-600);
+
+    /* warning */
+    --t-sys-color-icon-warning-light: var(--t-ref-color-orange-600);
+    --t-sys-color-icon-warning-inverse-light: var(--t-ref-color-neutral-1000);
+    --t-sys-color-icon-success-light: var(--t-ref-color-green-600);
+    --t-sys-color-icon-discovery-light: var(--t-ref-color-purple-600);
+    --t-sys-color-icon-information-light: var(--t-ref-color-blue-600);
+
+    /* icon */
+    --t-sys-color-icon-subtle-light: var(--t-ref-color-neutral-700);
+  }
+}

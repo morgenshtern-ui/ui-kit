@@ -1,0 +1,76 @@
+@layer themes {
+  @media (prefers-color-scheme: dark) {
+    .t-main-theme,
+    .t-main-theme--dark {
+      /* dark */
+
+      /* icon */
+      --t-sys-color-icon: var(--t-sys-color-icon-dark);
+
+      /* accent */
+      --t-sys-color-icon-accent-lime: var(--t-sys-color-icon-accent-lime-dark);
+      --t-sys-color-icon-accent-red: var(--t-sys-color-icon-accent-red-dark);
+      --t-sys-color-icon-accent-orange: var(--t-sys-color-icon-accent-orange-dark);
+      --t-sys-color-icon-accent-yellow: var(--t-sys-color-icon-accent-yellow-dark);
+      --t-sys-color-icon-accent-green: var(--t-sys-color-icon-accent-green-dark);
+      --t-sys-color-icon-accent-teal: var(--t-sys-color-icon-accent-teal-dark);
+      --t-sys-color-icon-accent-blue: var(--t-sys-color-icon-accent-blue-dark);
+      --t-sys-color-icon-accent-purple: var(--t-sys-color-icon-accent-purple-dark);
+      --t-sys-color-icon-accent-magenta: var(--t-sys-color-icon-accent-magenta-dark);
+      --t-sys-color-icon-accent-gray: var(--t-sys-color-icon-accent-gray-dark);
+
+      /* disabled */
+      --t-sys-color-icon-disabled: var(--t-sys-color-icon-disabled-dark);
+      --t-sys-color-icon-inverse: var(--t-sys-color-icon-inverse-dark);
+      --t-sys-color-icon-selected: var(--t-sys-color-icon-selected-dark);
+      --t-sys-color-icon-brand: var(--t-sys-color-icon-brand-dark);
+      --t-sys-color-icon-danger: var(--t-sys-color-icon-danger-dark);
+
+      /* warning */
+      --t-sys-color-icon-warning: var(--t-sys-color-icon-warning-dark);
+      --t-sys-color-icon-warning-inverse: var(--t-sys-color-icon-warning-inverse-dark);
+      --t-sys-color-icon-success: var(--t-sys-color-icon-success-dark);
+      --t-sys-color-icon-discovery: var(--t-sys-color-icon-discovery-dark);
+      --t-sys-color-icon-information: var(--t-sys-color-icon-information-dark);
+
+      /* icon */
+      --t-sys-color-icon-subtle: var(--t-sys-color-icon-subtle-dark);
+    }
+
+    .t-main-theme--light {
+      /* light */
+
+      /* icon */
+      --t-sys-color-icon: var(--t-sys-color-icon-light);
+
+      /* accent */
+      --t-sys-color-icon-accent-lime: var(--t-sys-color-icon-accent-lime-light);
+      --t-sys-color-icon-accent-red: var(--t-sys-color-icon-accent-red-light);
+      --t-sys-color-icon-accent-orange: var(--t-sys-color-icon-accent-orange-light);
+      --t-sys-color-icon-accent-yellow: var(--t-sys-color-icon-accent-yellow-light);
+      --t-sys-color-icon-accent-green: var(--t-sys-color-icon-accent-green-light);
+      --t-sys-color-icon-accent-teal: var(--t-sys-color-icon-accent-teal-light);
+      --t-sys-color-icon-accent-blue: var(--t-sys-color-icon-accent-blue-light);
+      --t-sys-color-icon-accent-purple: var(--t-sys-color-icon-accent-purple-light);
+      --t-sys-color-icon-accent-magenta: var(--t-sys-color-icon-accent-magenta-light);
+      --t-sys-color-icon-accent-gray: var(--t-sys-color-icon-accent-gray-light);
+
+      /* disabled */
+      --t-sys-color-icon-disabled: var(--t-sys-color-icon-disabled-light);
+      --t-sys-color-icon-inverse: var(--t-sys-color-icon-inverse-light);
+      --t-sys-color-icon-selected: var(--t-sys-color-icon-selected-light);
+      --t-sys-color-icon-brand: var(--t-sys-color-icon-brand-light);
+      --t-sys-color-icon-danger: var(--t-sys-color-icon-danger-light);
+
+      /* warning */
+      --t-sys-color-icon-warning: var(--t-sys-color-icon-warning-light);
+      --t-sys-color-icon-warning-inverse: var(--t-sys-color-icon-warning-inverse-light);
+      --t-sys-color-icon-success: var(--t-sys-color-icon-success-light);
+      --t-sys-color-icon-discovery: var(--t-sys-color-icon-discovery-light);
+      --t-sys-color-icon-information: var(--t-sys-color-icon-information-light);
+
+      /* icon */
+      --t-sys-color-icon-subtle: var(--t-sys-color-icon-subtle-light);
+    }
+  }
+}

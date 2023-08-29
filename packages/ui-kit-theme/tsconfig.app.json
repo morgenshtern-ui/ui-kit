@@ -1,0 +1,10 @@
+{
+  "extends": "@teleskop-labs/tsconfig/tsconfig.web.json",
+  "include": ["types/*.d.ts", "src/**/*.ts", "source/**/*.ts", "scripts/**/*.ts"],
+  "exclude": ["src/**/__tests__/*", "node_modules"],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "types": ["node", "jsdom"]
+  }
+}

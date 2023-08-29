@@ -1,0 +1,8 @@
+@layer themes {
+  .t-main-theme {
+    /* light */
+    --t-sys-color-blanket-light: var(--t-ref-color-neutral-500-a);
+    --t-sys-color-blanket-selected-light: rgb(56 139 255 / 7.8%);
+    --t-sys-color-blanket-danger-light: rgb(239 92 72 / 7.8%);
+  }
+}

@@ -1,0 +1,168 @@
+@layer themes {
+  .t-main-theme {
+    /* dark */
+
+    /* lime */
+    --t-sys-color-background-accent-lime-subtlest-dark: var(--t-ref-color-lime-1000);
+    --t-sys-color-background-accent-lime-subtler-dark: var(--t-ref-color-lime-900);
+    --t-sys-color-background-accent-lime-subtle-dark: var(--t-ref-color-lime-800);
+    --t-sys-color-background-accent-lime-bolder-dark: var(--t-ref-color-lime-400);
+
+    /* red */
+    --t-sys-color-background-accent-red-subtlest-dark: var(--t-ref-color-red-1000);
+    --t-sys-color-background-accent-red-subtler-dark: var(--t-ref-color-red-900);
+    --t-sys-color-background-accent-red-subtle-dark: var(--t-ref-color-red-800);
+    --t-sys-color-background-accent-red-bolder-dark: var(--t-ref-color-red-400);
+
+    /* orange */
+    --t-sys-color-background-accent-orange-subtlest-dark: var(--t-ref-color-orange-1000);
+    --t-sys-color-background-accent-orange-subtler-dark: var(--t-ref-color-orange-900);
+    --t-sys-color-background-accent-orange-subtle-dark: var(--t-ref-color-orange-800);
+    --t-sys-color-background-accent-orange-bolder-dark: var(--t-ref-color-orange-400);
+
+    /* yellow */
+    --t-sys-color-background-accent-yellow-subtlest-dark: var(--t-ref-color-yellow-1000);
+    --t-sys-color-background-accent-yellow-subtler-dark: var(--t-ref-color-yellow-900);
+    --t-sys-color-background-accent-yellow-subtle-dark: var(--t-ref-color-yellow-800);
+    --t-sys-color-background-accent-yellow-bolder-dark: var(--t-ref-color-yellow-400);
+
+    /* green */
+    --t-sys-color-background-accent-green-subtlest-dark: var(--t-ref-color-green-1000);
+    --t-sys-color-background-accent-green-subtler-dark: var(--t-ref-color-green-900);
+    --t-sys-color-background-accent-green-subtle-dark: var(--t-ref-color-green-800);
+    --t-sys-color-background-accent-green-bolder-dark: var(--t-ref-color-green-400);
+
+    /* teal */
+    --t-sys-color-background-accent-teal-subtlest-dark: var(--t-ref-color-teal-1000);
+    --t-sys-color-background-accent-teal-subtler-dark: var(--t-ref-color-teal-900);
+    --t-sys-color-background-accent-teal-subtle-dark: var(--t-ref-color-teal-800);
+    --t-sys-color-background-accent-teal-bolder-dark: var(--t-ref-color-teal-400);
+
+    /* blue */
+    --t-sys-color-background-accent-blue-subtlest-dark: var(--t-ref-color-blue-1000);
+    --t-sys-color-background-accent-blue-subtler-dark: var(--t-ref-color-blue-900);
+    --t-sys-color-background-accent-blue-subtle-dark: var(--t-ref-color-blue-800);
+    --t-sys-color-background-accent-blue-bolder-dark: var(--t-ref-color-blue-400);
+
+    /* purple */
+    --t-sys-color-background-accent-purple-subtlest-dark: var(--t-ref-color-purple-1000);
+    --t-sys-color-background-accent-purple-subtler-dark: var(--t-ref-color-purple-900);
+    --t-sys-color-background-accent-purple-subtle-dark: var(--t-ref-color-purple-800);
+    --t-sys-color-background-accent-purple-bolder-dark: var(--t-ref-color-purple-400);
+
+    /* magenta */
+    --t-sys-color-background-accent-magenta-subtlest-dark: var(--t-ref-color-magenta-1000);
+    --t-sys-color-background-accent-magenta-subtler-dark: var(--t-ref-color-magenta-900);
+    --t-sys-color-background-accent-magenta-subtle-dark: var(--t-ref-color-magenta-800);
+    --t-sys-color-background-accent-magenta-bolder-dark: var(--t-ref-color-magenta-400);
+
+    /* gray */
+    --t-sys-color-background-accent-gray-subtlest-dark: var(--t-ref-color-dark-neutral-300);
+    --t-sys-color-background-accent-gray-subtler-dark: var(--t-ref-color-dark-neutral-400);
+    --t-sys-color-background-accent-gray-subtle-dark: var(--t-ref-color-dark-neutral-500);
+    --t-sys-color-background-accent-gray-bolder-dark: var(--t-ref-color-dark-neutral-700);
+
+    /* disabled */
+    --t-sys-color-background-disabled-dark: var(--t-ref-color-dark-neutral-100-a);
+
+    /* input */
+    --t-sys-color-background-input-dark: var(--t-ref-color-dark-neutral-200);
+    --t-sys-color-background-input-hovered-dark: var(--t-ref-color-dark-neutral-250);
+    --t-sys-color-background-input-pressed-dark: var(--t-ref-color-dark-neutral-200);
+
+    /* inverse */
+    --t-sys-color-background-inverse-subtle-dark: rgb(255 255 255 / 16.1%);
+    --t-sys-color-background-inverse-subtle-hovered-dark: rgb(255 255 255 / 23.9%);
+    --t-sys-color-background-inverse-subtle-pressed-dark: rgb(255 255 255 / 32.2%);
+
+    /* neutral */
+    --t-sys-color-background-neutral-dark: var(--t-ref-color-dark-neutral-200-a);
+    --t-sys-color-background-neutral-hovered-dark: var(--t-ref-color-dark-neutral-300-a);
+    --t-sys-color-background-neutral-pressed-dark: var(--t-ref-color-dark-neutral-400-a);
+
+    /* neutral subtle */
+    --t-sys-color-background-neutral-subtle-dark: transparent;
+    --t-sys-color-background-neutral-subtle-hovered-dark: var(--t-ref-color-dark-neutral-200-a);
+    --t-sys-color-background-neutral-subtle-pressed-dark: var(--t-ref-color-dark-neutral-300-a);
+
+    /* neutral bold */
+    --t-sys-color-background-neutral-bold-dark: var(--t-ref-color-dark-neutral-800);
+    --t-sys-color-background-neutral-bold-hovered-dark: var(--t-ref-color-dark-neutral-900);
+    --t-sys-color-background-neutral-bold-pressed-dark: var(--t-ref-color-dark-neutral-1000);
+
+    /* selected */
+    --t-sys-color-background-selected-dark: var(--t-ref-color-blue-1000);
+    --t-sys-color-background-selected-hovered-dark: var(--t-ref-color-blue-900);
+    --t-sys-color-background-selected-pressed-dark: var(--t-ref-color-blue-800);
+
+    /* selected bold */
+    --t-sys-color-background-selected-bold-dark: var(--t-ref-color-blue-400);
+    --t-sys-color-background-selected-bold-hovered-dark: var(--t-ref-color-blue-300);
+    --t-sys-color-background-selected-bold-pressed-dark: var(--t-ref-color-blue-200);
+
+    /* brand */
+    --t-sys-color-background-brand-subtlest-dark: var(--t-ref-color-blue-1000);
+    --t-sys-color-background-brand-subtlest-hovered-dark: var(--t-ref-color-blue-900);
+    --t-sys-color-background-brand-subtlest-pressed-dark: var(--t-ref-color-blue-800);
+
+    /* brand bold */
+    --t-sys-color-background-brand-bold-dark: var(--t-ref-color-blue-400);
+    --t-sys-color-background-brand-bold-hovered-dark: var(--t-ref-color-blue-300);
+    --t-sys-color-background-brand-bold-pressed-dark: var(--t-ref-color-blue-200);
+
+    /* brand boldest */
+    --t-sys-color-background-brand-boldest-dark: var(--t-ref-color-blue-100);
+    --t-sys-color-background-brand-boldest-hovered-dark: var(--t-ref-color-blue-200);
+    --t-sys-color-background-brand-boldest-pressed-dark: var(--t-ref-color-blue-300);
+
+    /* danger */
+    --t-sys-color-background-danger-dark: var(--t-ref-color-red-1000);
+    --t-sys-color-background-danger-hovered-dark: var(--t-ref-color-red-900);
+    --t-sys-color-background-danger-pressed-dark: var(--t-ref-color-red-800);
+
+    /* danger bold */
+    --t-sys-color-background-danger-bold-dark: var(--t-ref-color-red-400);
+    --t-sys-color-background-danger-bold-hovered-dark: var(--t-ref-color-red-300);
+    --t-sys-color-background-danger-bold-pressed-dark: var(--t-ref-color-red-200);
+
+    /* warning */
+    --t-sys-color-background-warning-dark: var(--t-ref-color-yellow-1000);
+    --t-sys-color-background-warning-hovered-dark: var(--t-ref-color-yellow-900);
+    --t-sys-color-background-warning-pressed-dark: var(--t-ref-color-yellow-800);
+
+    /* warning bold */
+    --t-sys-color-background-warning-bold-dark: var(--t-ref-color-yellow-400);
+    --t-sys-color-background-warning-bold-hovered-dark: var(--t-ref-color-yellow-300);
+    --t-sys-color-background-warning-bold-pressed-dark: var(--t-ref-color-yellow-200);
+
+    /* success */
+    --t-sys-color-background-success-dark: var(--t-ref-color-green-1000);
+    --t-sys-color-background-success-hovered-dark: var(--t-ref-color-green-900);
+    --t-sys-color-background-success-pressed-dark: var(--t-ref-color-green-800);
+
+    /* success bold */
+    --t-sys-color-background-success-bold-dark: var(--t-ref-color-green-400);
+    --t-sys-color-background-success-bold-hovered-dark: var(--t-ref-color-green-300);
+    --t-sys-color-background-success-bold-pressed-dark: var(--t-ref-color-green-200);
+
+    /* discovery */
+    --t-sys-color-background-discovery-dark: var(--t-ref-color-purple-1000);
+    --t-sys-color-background-discovery-hovered-dark: var(--t-ref-color-purple-900);
+    --t-sys-color-background-discovery-pressed-dark: var(--t-ref-color-purple-800);
+
+    /* discovery bold */
+    --t-sys-color-background-discovery-bold-dark: var(--t-ref-color-purple-400);
+    --t-sys-color-background-discovery-bold-hovered-dark: var(--t-ref-color-purple-300);
+    --t-sys-color-background-discovery-bold-pressed-dark: var(--t-ref-color-purple-200);
+
+    /* information */
+    --t-sys-color-background-information-dark: var(--t-ref-color-blue-1000);
+    --t-sys-color-background-information-hovered-dark: var(--t-ref-color-blue-900);
+    --t-sys-color-background-information-pressed-dark: var(--t-ref-color-blue-800);
+
+    /* information  bold */
+    --t-sys-color-background-information-bold-dark: var(--t-ref-color-blue-400);
+    --t-sys-color-background-information-bold-hovered-dark: var(--t-ref-color-blue-300);
+    --t-sys-color-background-information-bold-pressed-dark: var(--t-ref-color-blue-200);
+  }
+}

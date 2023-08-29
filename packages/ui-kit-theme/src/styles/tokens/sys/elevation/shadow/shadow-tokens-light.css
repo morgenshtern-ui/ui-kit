@@ -1,0 +1,10 @@
+@layer themes {
+  .t-main-theme {
+    /* light */
+    --t-sys-elevation-shadow-overflow-light: 0px 0px 8px rgb(9 30 66 / 16%), 0px 0px 1px rgb(9 30 66 / 12%);
+    --t-sys-elevation-shadow-overflow-perimeter-light: rgb(9 30 66 / 12.2%);
+    --t-sys-elevation-shadow-overflow-spread-light: rgb(9 30 66 / 16.1%);
+    --t-sys-elevation-shadow-overlay-light: 0px 8px 12px rgb(9 30 66 / 15%), 0px 0px 1px rgb(9 30 66 / 31%);
+    --t-sys-elevation-shadow-raised-light: 0px 1px 1px rgb(9 30 66 / 25%), 0px 0px 1px rgb(9 30 66 / 31%);
+  }
+}

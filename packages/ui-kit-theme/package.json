@@ -1,0 +1,23 @@
+{
+  "name": "@teleskop-labs/ui-kit-theme",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "sideEffects": false,
+  "style": "./src/main.css",
+  "files": [
+    "src/*"
+  ],
+  "scripts": {
+    "build": "tsx ./scripts/build.ts",
+    "prettier": "prettier --check --ignore-unknown \"**/*\"",
+    "prettier:fix": "prettier --write --ignore-unknown \"**/*\"",
+    "stylelint": "stylelint \"**/*.{css,vue}\"",
+    "stylelint:fix": "stylelint --fix \"**/*.{css,vue}\""
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "fs-extra": "^11.1.1",
+    "tsx": "^3.12.7"
+  }
+}

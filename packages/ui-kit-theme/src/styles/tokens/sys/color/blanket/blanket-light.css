@@ -1,0 +1,18 @@
+@layer themes {
+  @media (prefers-color-scheme: light) {
+    .t-main-theme,
+    .t-main-theme--light {
+      /* light */
+      --t-sys-color-blanket: var(--t-sys-color-blanket-light);
+      --t-sys-color-blanket-selected: var(--t-sys-color-blanket-selected-light);
+      --t-sys-color-blanket-danger: var(--t-sys-color-blanket-danger-light);
+    }
+
+    .t-main-theme--dark {
+      /* dark */
+      --t-sys-color-blanket: var(--t-sys-color-blanket-dark);
+      --t-sys-color-blanket-selected: var(--t-sys-color-blanket-selected-dark);
+      --t-sys-color-blanket-danger: var(--t-sys-color-blanket-danger-dark);
+    }
+  }
+}
